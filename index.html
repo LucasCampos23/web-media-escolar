@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Projeto Web</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Media Escolar</h1>
+
+        <p class="texto-titulo">Coloque as notas das suas respectivas provas e saiba sua média</p>
+    </header>
+
+    <section>
+        <div class="div-conteudo">
+            <p class="texto-input">Nota Prova1: <input type="number" name="prova1" id="txtp1"></p>
+            <p class="texto-input">Nota Prova2: <input type="number" name="prova2" id="txtp2"></p>
+            <p class="texto-input">Nota Prova3: <input type="number" name="prova3" id="txtp3"></p>
+
+           <input type="button" class="btn first" value="calcular" onclick="calcular()">
+            <p></p>
+        </div>
+
+        <div id="res">
+            Calculando resultado...
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Todos os direitos reservaods</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
