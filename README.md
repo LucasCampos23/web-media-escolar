@@ -1,2 +1,2 @@
 # projetoweb
- Projeto de um site que calcula suas media da nota escolar
+ ## Projeto de um site que calcula sua media das provas
